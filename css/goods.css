@@ -1,0 +1,120 @@
+.section-description {
+   text-align: center;
+   font-size: 1.142rem;
+   margin: 20px 0 50px 0;
+}
+
+.goods-block {
+   margin: 80px 0 0 0;
+}
+
+.goods-block::after {
+   display: block;
+   content: "";
+   width: 100%;
+   clear: both;
+}
+
+.goods-cart {
+   min-height: 350px;
+   background: #fff;
+   text-align: center;
+   font-size: 1.142rem;
+}
+
+.goods-cart img {
+   margin-top: 30px;
+}
+
+.goods-cart .goods-name {
+   margin-top: 25px;
+   font-weight: bold;
+}
+
+.goods-cart .goods-price {
+   color: #ff5912;
+   font-weight: bold;
+   padding: 20px 0;
+}
+
+.mouse-hover .goods-name {
+   color: #ff5912;
+}
+
+.mouse-hover .goods-size {
+   padding-top: 15px;
+}
+
+.mouse-hover .goods-ico{
+   padding: 30px;
+   cursor: pointer;
+}
+
+.goods-ico i {
+   margin: 0 3px;
+}
+
+.mouse-hover .goods-color {
+   text-align: center;
+   position: relative;
+}
+
+.mouse-hover .goods-color::after {
+   content: "";
+   display: block;
+   width: 170px;
+   height: 1px;
+   background: #f2f4f7;
+   position: absolute;
+   right: 48px;
+}
+
+.mouse-hover .goods-color div {
+   display: inline-block;
+   cursor: pointer;
+   margin: 30px 0 20px 0;
+}
+
+.mouse-hover .goods-color .red {
+   width: 15px;
+   height: 15px;
+   background-image: url(../img/colors.png);
+   background-repeat: no-repeat;
+}
+
+.mouse-hover .goods-color .black {
+   width: 15px;
+   height: 15px;
+   background-image: url(../img/colors.png);
+   background-repeat: no-repeat;
+   background-position: -18px;
+}
+
+.mouse-hover .goods-color .blue {
+   width: 15px;
+   height: 15px;
+   background-image: url(../img/colors.png);
+   background-repeat: no-repeat;
+   background-position: -36px;
+}
+
+.mouse-hover .goods-color .green {
+   width: 15px;
+   height: 15px;
+   background-image: url(../img/colors.png);
+   background-repeat: no-repeat;
+   background-position: -54px;
+}
+
+.block-next-items {
+   width: 97.5%;
+   min-height: 60px;
+   float: left;
+   margin: 5% 1.25%;
+   background-color: #fff;
+   text-align: center;
+   padding-top: 22px;
+   position: relative;
+   right: 0;
+   cursor: pointer;
+}

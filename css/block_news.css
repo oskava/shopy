@@ -1,0 +1,60 @@
+.block-news {
+   width: 97.5%;
+   min-height: 125px;
+   background: #fff;
+   margin: 4% 1.25%;
+}
+
+.block-news .block-left {
+   width: 50%;
+   float: left;
+   line-height: 125px;
+}
+
+.block-left span {
+   color: #ff5912;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 1.285rem;
+   float: left;
+   margin: 0 30px 0 50px;
+}
+
+.block-left p {
+   float: left;
+   font-style: italic;
+}
+
+.block-news .block-right {
+   width: 50%;
+   float: left;
+   line-height: 125px;
+   text-align: right;
+}
+
+.block-news .block-right input[type="submit"] {
+   width: 100px;
+   height: 50px;
+   margin-right: 50px;
+   background: #ff5912;
+   border: none;
+   outline:none;
+   color: #fff;
+   font-weight: bold;
+   cursor: pointer;
+   position: relative;
+   bottom: 15px;
+}
+
+.block-news .block-right input[type="email"] {
+   font-style: italic;
+   outline:none;
+   border: none;
+   margin-right: 150px;
+}
+
+.block-news .block-right img {
+   position: relative;
+   top: 2px;
+   margin-right: 10px;
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/show_products.css">
+   <link rel="stylesheet" href="css/goods_sale.css">
+   <link rel="stylesheet" href="css/block_news.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+      <header class="site-header">
+            <div class="container header-line">
+               <div class="container">
+      
+                  <div class="contacts md-8">
+                     <div class="info-mail">
+                        <a href="mailto:info@shopy.com"><i class="far fa-envelope text-orange ico-size"></i>
+                           <span>info@shopy.com</span></a>
+                     </div>
+      
+                     <div class="info-phone">
+                        <a href="tel:+380933555001"><i class="fas fa-phone-square-alt text-orange ico-size"></i>
+                           <span>+380933555001</span></a>
+                     </div>
+                  </div>
+      
+                  <div class="block-170 network-icons  md-4">
+                     <div class="network-icons-right">
+                        <a href="#">
+                           <i class="fab fa-facebook-f ico-size text-grey"></i>
+                        </a>
+                        <a href="#">
+                           <i class="fab fa-twitter ico-size text-grey"></i>
+                        </a>
+                        <a href="#">
+                           <i class="fab fa-youtube ico-size text-grey"></i>
+                        </a>
+                        <a href="#" class="instagram-icon-block">
+                           <i class="fab fa-instagram ico-size text-grey"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      
+            <div class="container">
+               <div class="row">
+                  <div class="block-170 md-12 md-center">
+                     <a href="#"><img src="img/logo.png" alt="" class="main-logo"></a>
+                  </div>
+                  <div class="block-370 block-nav">
+                     <nav class="main-nav">
+                        <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">Products</a></li>
+                           <li><a href="#">Hot Deals</a></li>
+                           <li><a href="#">About</a></li>
+                           <li><a href="#">Contact</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+      
+                  <div class="md-block-nav">
+                     <nav class="main-nav">
+                        <ul>
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">Products</a></li>
+                           <li><a href="#">Hot Deals</a></li>
+                           <li><a href="#">About</a></li>
+                           <li><a href="#">Contact</a></li>
+                        </ul>
+                     </nav>
+                     <div class="block-170 md-block-icon">
+                        <div class="icons">
+                           <a href="#"><i class="fas fa-search ico-size-main text-grey"></i></a>
+                           <a href="#"><i class="far fa-user ico-size-main text-grey"></i></a>
+                           <a href="#" class="cart-count"><i class="fas fa-shopping-basket text-orange ico-size-main"></i><span
+                                 class="cart-count-num">6</span></a>
+                        </div>
+                     </div>
+                  </div>
+      
+                  <div class="block-170 block-icon">
+                     <div class="icons">
+                        <a href="#"><i class="fas fa-search ico-size-main text-grey"></i></a>
+                        <a href="#"><i class="far fa-user ico-size-main text-grey"></i></a>
+                        <a href="#" class="cart-count"><i class="fas fa-shopping-basket text-orange ico-size-main"></i><span
+                              class="cart-count-num">6</span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+
+   <div class="container show-products">
+         <div class="row">
+            <div class="block-300 md-12">
+               <div class="row">
+                  <div class="sidebar-block md-6 md-margin">
+                     <h3>Categories</h3>
+                     <ul>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Children</a></li>
+                        <li><a href="#">Hot Deals</a></li>
+                     </ul>
+                  </div>
+                  <div class="sidebar-block md-6 md-margin">
+                     <h3>Sizes</h3>
+                     <ul>
+                        <li class="active-square"><a href="#">Small</a></li>
+                        <li class="inactive-square"><a href="#">Medium</a></li>
+                        <li class="inactive-square"><a href="#">Large</a></li>
+                        <li class="inactive-square"><a href="#">X Large</a></li>
+                     </ul>
+                  </div>
+   
+                  <div class="sidebar-block price-block md-6 md-margin-bottom">
+                     <h3>Price Filter</h3>
+                     <div class="double-slider" id="double-slider">
+                        <div class="line-1"></div>
+                        <div class="line-2"></div>
+                        <div class="left-dot">
+                           <div class="dot-price">100$</div>
+                           <div class="dot"></div>
+                        </div>
+                        <div class="right-dot">
+                           <div class="dot-price">1000$</div>
+                           <div class="dot"></div>
+                        </div>
+                     </div>
+   
+                     <div class="slider-from-to">
+                        <span>From </span><input type="text" id="from-price-slider">
+                        <span>To </span><input type="text" id="to-price-slider">
+                     </div>
+   
+                  </div>
+   
+                  <div class="sidebar-block md-6 md-margin-bottom">
+                     <h3>Brands</h3>
+                     <ul>
+                        <li class="active-square"><a href="#">Reebok</a></li>
+                        <li class="inactive-square"><a href="#">Adidas</a></li>
+                        <li class="inactive-square"><a href="#">Nike</a></li>
+                        <li class="inactive-square"><a href="#">Active</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+   
+            <div class="block-900 md-12">
+               <div class="row">
+                  <div class="block-370 md-6">
+                     <div class="goods-cart">
+                        <img src="img/goods_1.png" alt="">
+                        <p class="goods-name">Reebok Track Jacket</p>
+                        <p class="goods-price">100$</p>
+                     </div>
+                  </div>
+                  <div class="block-370 md-6">
+                     <div class="goods-cart">
+                        <img src="img/goods_2.png" alt="">
+                        <p class="goods-name">Reebok Track Jacket</p>
+                        <p class="goods-price">100$</p>
+                     </div>
+                  </div>
+                  <div class="block-370 md-6">
+                     <div class="goods-cart">
+                        <img src="img/goods_4.png" alt="">
+                        <p class="goods-name">Reebok Track Jacket</p>
+                        <p class="goods-price">100$</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="block-900 md-12">
+                  <div class="row">
+                     <div class="block-370 md-6">
+                        <div class="goods-cart">
+                           <img src="img/goods_1.png" alt="">
+                           <p class="goods-name">Reebok Track Jacket</p>
+                           <p class="goods-price">100$</p>
+                        </div>
+                     </div>
+                     <div class="block-370 md-6">
+                        <div class="goods-cart">
+                           <img src="img/goods_2.png" alt="">
+                           <p class="goods-name">Reebok Track Jacket</p>
+                           <p class="goods-price">100$</p>
+                        </div>
+                     </div>
+                     <div class="block-370 md-6">
+                        <div class="goods-cart">
+                           <img src="img/goods_4.png" alt="">
+                           <p class="goods-name">Reebok Track Jacket</p>
+                           <p class="goods-price">100$</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="block-900 md-12">
+                     <div class="row">
+                        <div class="block-370 md-6">
+                           <div class="goods-cart">
+                              <img src="img/goods_1.png" alt="">
+                              <p class="goods-name">Reebok Track Jacket</p>
+                              <p class="goods-price">100$</p>
+                           </div>
+                        </div>
+                        <div class="block-370 md-6">
+                           <div class="goods-cart">
+                              <img src="img/goods_2.png" alt="">
+                              <p class="goods-name">Reebok Track Jacket</p>
+                              <p class="goods-price">100$</p>
+                           </div>
+                        </div>
+                        <div class="block-370 md-6">
+                           <div class="goods-cart">
+                              <img src="img/goods_4.png" alt="">
+                              <p class="goods-name">Reebok Track Jacket</p>
+                              <p class="goods-price">100$</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+            <div class="block-next-items md-12">
+                  <i class="fas fa-ellipsis-h text-orange ico-size-dots"></i>
+            </div>
+         </div>
+      </div>
+
+      <div class="container">
+            <div class="row">
+               <div class="block-news">
+                  <div class="row">
+                     <div class="block-left md-12 md-center">
+                        <p><span>News letter</span>
+                           join us now to get all news and special offers</p>
+                     </div>
+      
+                     <div class="block-right md-12 md-margin-bottom">
+                        <div class="md-center">
+                        <i class="far fa-envelope text-orange ico-size md-float-left"></i>
+                        <input name="email" type="email" placeholder="type your email here">
+                        <input type="submit" value="join us">
+                     </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+   
+      <footer class="site-footer">
+         <div class="container">
+            <div class="row">
+   
+               <div class="block-370 red md-4">
+                  <img src="img/logo.png" alt="">
+                  <p>shopy &copy; 2015</p>
+               </div>
+   
+               <div class="block-170 red md-4">
+                  <ul>
+                     <li><a href="#">about us</a></li>
+                     <li><a href="#">contact us</a></li>
+                     <li><a href="#">support</a></li>
+                  </ul>
+               </div>
+   
+               <div class="block-170 red md-4">
+                  <ul>
+                     <li><a href="#">our feed</a></li>
+                     <li><a href="#">terms and conditions</a></li>
+                     <li><a href="#">our privacy</a></li>
+                  </ul>
+               </div>
+   
+               <div class="block-170 red md-4 md-margin-bottom">
+                  <ul>
+                     <li><a href="#">join us</a></li>
+                     <li><a href="#">live support</a></li>
+                  </ul>
+               </div>
+   
+               <div class="block-170 red md-4 md-margin-bottom">
+                  <a href="#">
+                     <p class="payment">Payment Methods</p>
+                  </a>
+                  <div class="payment-card-1"></div>
+                  <div class="payment-card-2"></div>
+                  <div class="payment-card-3"></div>
+                  <div class="payment-card-4"></div>
+                  <div class="payment-card-5"></div>
+               </div>
+   
+            </div>
+         </div>
+      </footer>
+
+   <script src="https://kit.fontawesome.com/b9f175c608.js" crossorigin="anonymous"></script>
+</body>
+</html>

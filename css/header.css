@@ -1,0 +1,133 @@
+.site-header {
+   min-height: 180px;
+   background: #fff;
+ }
+
+.site-header a {
+    color: #34404b;
+    text-decoration: none;
+ }
+
+ .site-header a:hover {
+    color: #ff5912;
+ }
+
+.header-line {
+   min-height: 60px;
+   width: 100%;
+   border-bottom: 1px solid #edeff1;
+   margin-top: 0;
+ }
+
+ .header-line a {
+   font-size: 0.857rem;
+   float: left;
+   margin-top: 23px;
+   margin-right: 20px;
+}
+
+.header-line .container {
+   margin-top: 0;
+}
+
+.header-line .container img {
+   margin: 0 10px -2px 0;
+}
+
+ .main-logo {
+    margin-top: 40px;
+ }
+
+header .block-370 {
+   width: 64%;
+   min-width: 470px;
+ }
+
+ .main-nav ul {
+   margin: 0;
+   padding: 0;
+ }
+
+ .main-nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+ }
+
+ .main-nav li {
+    float: left;
+    list-style: none;
+    margin: 50px 30px;
+ }
+
+ .block-icon {
+    text-align: right;
+ }
+
+.icons{
+    margin-top: 40px;
+ }
+
+ .icons img {
+    margin: 0 12px;
+ }
+
+.cart-count {
+   position: relative;
+}
+
+ .icons span.cart-count-num {
+   display: block;
+   width: 16px;
+   height: 16px;
+   background: #34404b;
+   text-align: center;
+   line-height: 18px;
+   position: absolute;
+   bottom: 18px;
+   right: 16px;
+   border-radius: 10px;
+ }
+
+ .cart-count-num {
+   display: inline-block;
+   position: absolute;
+   bottom: 20px;
+   right: 16px;
+   font-size: 0.714rem;
+   font-weight: bold;
+   text-align: center;
+   color: #fff;
+ }
+
+ .contacts {
+    min-height: 60px;
+    width: 80.4%;
+    margin: 0 1.25% 0 1.25%;
+    float: left;
+ }
+
+ .network-icons {
+   min-height: 60px;
+   text-align: right;
+   position: relative;
+ }
+
+ .network-icons div a {
+    display: inline-block;
+    margin-top: 25px;
+ }
+
+ .network-icons-right {
+    position: absolute;
+    right: 0;
+    /* padding: 0 12px; */
+ }
+
+a.instagram-icon-block {
+   margin-right: 0;
+}
+ 
+.cart-count i {
+   margin-right: 14px;
+}
