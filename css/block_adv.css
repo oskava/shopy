@@ -1,57 +1,57 @@
 .block-adv {
-   width: 58.33%;
-   min-height: 100px;
-   background: #fff;
-   border: 1px solid #eaedef;
+   width        : 58.33%;
+   min-height   : 100px;
+   background   : #fff;
+   border       : 1px solid #eaedef;
    border-radius: 2px;
-   float: left;
-   margin-right: 1.25%;
+   float        : left;
+   margin-right : 1.25%;
 }
 
 .block-adv-2 {
-   width: 39.16%;
-   margin: 0 0 0 1.25%;
-   text-align: center;
+   width      : 39.16%;
+   margin     : 0 0 0 1.25%;
+   text-align : center;
    line-height: 25px;
    padding-top: 25px;
-   font-size: 1.142rem;
+   font-size  : 1.142rem;
 }
 
-.block-adv-2 span{
+.block-adv-2 span {
    color: #ff5912;
 }
 
 .block-adv-2 .block-size {
-   color: #cfcfcf;
+   color         : #cfcfcf;
    letter-spacing: 10px;
 }
 
 .block-adv .sale {
-   width: 25%;
+   width : 25%;
    margin: 0 2%;
-   float: left;
+   float : left;
 }
 
 .block-adv .sale-img {
-   width: 80px;
-   height: 80px;
+   width           : 80px;
+   height          : 80px;
    background-image: url(../img/sale.png);
-   margin: 10px auto;
-   text-align: center;
-   color: #fff;
-   padding-top: 18px;
-   
+   margin          : 10px auto;
+   text-align      : center;
+   color           : #fff;
+   padding-top     : 18px;
+
 }
 
 .block-adv .sale-img span {
    font-style: italic;
-   font-size: 0.857rem;
+   font-size : 0.857rem;
 }
 
 .block-adv .sale-img p {
    font-weight: bold;
-   font-size: 1.285rem;
-   
+   font-size  : 1.285rem;
+
 }
 
 .slogan h3 {
@@ -59,54 +59,51 @@
 }
 
 .block-adv .slogan {
-   width: 40%;
-   float: left;
-   margin: 0 2%;
+   width     : 40%;
+   float     : left;
+   margin    : 0 2%;
    text-align: left;
    min-height: 100px;
-   position: relative;
+   position  : relative;
 }
 
 .block-adv .slogan::after {
-   content: "";
-   display: block;
-   width: 1px;
-   height: 43px;
+   content   : "";
+   display   : block;
+   width     : 1px;
+   height    : 43px;
    background: #f5f5f6;
-   position: absolute;
-   right: -15px;
-   top: 27.5px;
+   position  : absolute;
+   right     : -15px;
+   top       : 27.5px;
 }
 
 .block-adv .slogan h3 {
-   font-size: 1.571rem;
+   font-size     : 1.571rem;
    text-transform: uppercase;
-   font-weight: bold;
-   margin: 0;
-   padding-top: 26px;
+   font-weight   : bold;
+   margin        : 0;
+   padding-top   : 26px;
 }
 
 .block-adv .slogan p {
-   font-size: 0.857rem;
-   color: #495662;
+   font-size  : 0.857rem;
+   color      : #495662;
    padding-top: 10px;
 }
 
 .block-adv .adv-price {
-   width: 23%;
-   min-height: 100px;
-   float: left;
-   margin: 0 2%;
-   text-align: center;
-   color: #ff5912;
+   width      : 23%;
+   min-height : 100px;
+   float      : left;
+   margin     : 0 2%;
+   text-align : center;
+   color      : #ff5912;
    font-weight: bold;
-   font-size: 1.642rem;
+   font-size  : 1.642rem;
    padding-top: 35px;
 }
 
 .adv-price p {
    display: inline;
 }
-
-
-

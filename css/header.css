@@ -1,28 +1,39 @@
 .site-header {
    min-height: 180px;
    background: #fff;
- }
+}
 
 .site-header a {
-    color: #34404b;
-    text-decoration: none;
- }
+   color          : #34404b;
+   text-decoration: none;
+}
 
- .site-header a:hover {
-    color: #ff5912;
- }
+.site-header a:hover {
+   color: #ff5912;
+}
+
+
+
+
+.main-nav a {
+   display: block;
+   width  : 100%;
+   height : 100%;
+   padding: 50px 30px;
+}
 
 .header-line {
-   min-height: 60px;
-   width: 100%;
+   min-height   : 60px;
+   width        : 100%;
    border-bottom: 1px solid #edeff1;
-   margin-top: 0;
- }
+   margin-top   : 0;
+}
 
- .header-line a {
-   font-size: 0.857rem;
-   float: left;
-   margin-top: 23px;
+.header-line a {
+
+   font-size   : 0.857rem;
+   float       : left;
+   margin-top  : 23px;
    margin-right: 20px;
 }
 
@@ -34,100 +45,164 @@
    margin: 0 10px -2px 0;
 }
 
- .main-logo {
-    margin-top: 40px;
- }
+.main-logo {
+   margin-top: 40px;
+}
 
 header .block-370 {
-   width: 64%;
+   width    : 64%;
    min-width: 470px;
- }
+}
 
- .main-nav ul {
-   margin: 0;
+.main-nav ul {
+   margin : 0;
    padding: 0;
- }
+}
 
- .main-nav ul::after {
-    content: "";
-    display: block;
-    clear: both;
- }
+.main-nav ul::after {
+   content: "";
+   display: block;
+   clear  : both;
+}
 
- .main-nav li {
-    float: left;
-    list-style: none;
-    margin: 50px 30px;
- }
+.main-nav li {
+   float     : left;
+   list-style: none;
+}
 
- .block-icon {
-    text-align: right;
- }
 
-.icons{
-    margin-top: 40px;
- }
 
- .icons img {
-    margin: 0 12px;
- }
+.icons {
+   margin-top: 40px;
+}
+
+.icons img {
+   margin: 0 12px;
+}
 
 .cart-count {
    position: relative;
 }
 
- .icons span.cart-count-num {
-   display: block;
-   width: 16px;
-   height: 16px;
-   background: #34404b;
-   text-align: center;
-   line-height: 18px;
-   position: absolute;
-   bottom: 18px;
-   right: 16px;
+.icons span.cart-count-num {
+   display      : block;
+   width        : 16px;
+   height       : 16px;
+   background   : #34404b;
+   text-align   : center;
+   line-height  : 18px;
+   position     : absolute;
+   bottom       : 18px;
+   right        : 16px;
    border-radius: 10px;
- }
+}
 
- .cart-count-num {
-   display: inline-block;
-   position: absolute;
-   bottom: 20px;
-   right: 16px;
-   font-size: 0.714rem;
+.cart-count-num {
+   display    : inline-block;
+   position   : absolute;
+   bottom     : 20px;
+   right      : 16px;
+   font-size  : 0.714rem;
    font-weight: bold;
-   text-align: center;
-   color: #fff;
- }
+   text-align : center;
+   color      : #fff;
+}
 
- .contacts {
-    min-height: 60px;
-    width: 80.4%;
-    margin: 0 1.25% 0 1.25%;
-    float: left;
- }
+.contacts {
+   min-height: 60px;
+   width     : 80.4%;
+   margin    : 0 1.25% 0 1.25%;
+   float     : left;
+}
 
- .network-icons {
+.network-icons {
    min-height: 60px;
    text-align: right;
-   position: relative;
- }
+   position  : relative;
+}
 
- .network-icons div a {
-    display: inline-block;
-    margin-top: 25px;
- }
+.network-icons div a {
+   display   : inline-block;
+   margin-top: 25px;
+}
 
- .network-icons-right {
-    position: absolute;
-    right: 0;
-    /* padding: 0 12px; */
- }
+.network-icons-right {
+   position: absolute;
+   right   : 0;
+}
 
 a.instagram-icon-block {
    margin-right: 0;
 }
- 
+
 .cart-count i {
    margin-right: 14px;
+}
+
+.md-block-nav {
+   display   : none;
+   width     : 170px;
+   height    : 40px;
+   background: #E0E0E3;
+   position  : fixed;
+   left      : -135px;
+   top       : 0;
+   transition: all ease 0.5s;
+   cursor    : pointer;
+}
+
+.md-block-nav::after {
+   content   : "";
+   display   : block;
+   width     : 20px;
+   height    : 20px;
+   background: url('../img/menu.png');
+   position  : absolute;
+   right     : 9px;
+   top       : 8px;
+}
+
+.md-block-nav:hover {
+   left  : 0;
+   height: 100%;
+}
+
+.md-block-icon {
+   display: none;
+}
+
+@media screen and (max-width:768px) {
+   header .block-370 {
+      min-width: 212px;
+      width    : 212px;
+   }
+
+   .info-mail {
+      padding-left: 30px;
+   }
+
+   .main-nav li {
+      margin: 20px 10px;
+   }
+
+   .block-icon {
+      margin: 20px 0;
+   }
+
+   .main-nav a {
+      padding: 5px 0;
+   }
+
+   .block-nav {
+      display: none;
+   }
+
+   .block-icon {
+      display: none;
+   }
+
+   .main-nav ul {
+      width       : 100px;
+      padding-left: 9px;
+   }
 }

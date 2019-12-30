@@ -1,7 +1,7 @@
 .section-description {
    text-align: center;
-   font-size: 1.142rem;
-   margin: 20px 0 50px 0;
+   font-size : 1.142rem;
+   margin    : 20px 0 50px 0;
 }
 
 .goods-block {
@@ -11,15 +11,15 @@
 .goods-block::after {
    display: block;
    content: "";
-   width: 100%;
-   clear: both;
+   width  : 100%;
+   clear  : both;
 }
 
 .goods-cart {
    min-height: 350px;
    background: #fff;
    text-align: center;
-   font-size: 1.142rem;
+   font-size : 1.142rem;
 }
 
 .goods-cart img {
@@ -27,14 +27,14 @@
 }
 
 .goods-cart .goods-name {
-   margin-top: 25px;
+   margin-top : 25px;
    font-weight: bold;
 }
 
 .goods-cart .goods-price {
-   color: #ff5912;
+   color      : #ff5912;
    font-weight: bold;
-   padding: 20px 0;
+   padding    : 20px 0;
 }
 
 .mouse-hover .goods-name {
@@ -45,9 +45,9 @@
    padding-top: 15px;
 }
 
-.mouse-hover .goods-ico{
+.mouse-hover .goods-ico {
    padding: 30px;
-   cursor: pointer;
+   cursor : pointer;
 }
 
 .goods-ico i {
@@ -56,65 +56,62 @@
 
 .mouse-hover .goods-color {
    text-align: center;
-   position: relative;
+   position  : relative;
 }
 
 .mouse-hover .goods-color::after {
-   content: "";
-   display: block;
-   width: 170px;
-   height: 1px;
+   content   : "";
+   display   : block;
+   width     : 170px;
+   height    : 1px;
    background: #f2f4f7;
-   position: absolute;
-   right: 48px;
+   position  : absolute;
+   right     : 48px;
 }
 
 .mouse-hover .goods-color div {
    display: inline-block;
-   cursor: pointer;
-   margin: 30px 0 20px 0;
+   cursor : pointer;
+   margin : 30px 2px 20px 2px;
+}
+
+.mouse-hover .goods-color .ico-size {
+   width        : 14px;
+   height       : 14px;
+   border-radius: 100%;
 }
 
 .mouse-hover .goods-color .red {
-   width: 15px;
-   height: 15px;
-   background-image: url(../img/colors.png);
-   background-repeat: no-repeat;
+   background: #E94650;
 }
 
 .mouse-hover .goods-color .black {
-   width: 15px;
-   height: 15px;
-   background-image: url(../img/colors.png);
-   background-repeat: no-repeat;
-   background-position: -18px;
+   background: #43525D;
 }
 
 .mouse-hover .goods-color .blue {
-   width: 15px;
-   height: 15px;
-   background-image: url(../img/colors.png);
-   background-repeat: no-repeat;
-   background-position: -36px;
+   background: #44C1FF;
 }
 
 .mouse-hover .goods-color .green {
-   width: 15px;
-   height: 15px;
-   background-image: url(../img/colors.png);
-   background-repeat: no-repeat;
-   background-position: -54px;
+   background: #30DC7A;
 }
 
 .block-next-items {
-   width: 97.5%;
-   min-height: 60px;
-   float: left;
-   margin: 5% 1.25%;
+   width           : 97.5%;
+   min-height      : 60px;
+   float           : left;
+   margin          : 5% 1.25%;
    background-color: #fff;
-   text-align: center;
-   padding-top: 22px;
-   position: relative;
-   right: 0;
-   cursor: pointer;
+   text-align      : center;
+   padding-top     : 22px;
+   position        : relative;
+   right           : 0;
+   cursor          : pointer;
+}
+
+@media screen and (max-width:768px) {
+   .goods-cart {
+      margin: 10px 10px;
+   }
 }

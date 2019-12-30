@@ -1,14 +1,13 @@
 .site-footer {
    background: #fff;
-   padding: 60px 170px 45px;
+   padding   : 60px 170px 45px;
 }
 
 footer .block-370 {
-   width: 30.8333%;
-   min-width: 170px;
+   min-width : 170px;
    min-height: 140px;
-   float: left;
-   margin: 0 1.25%;
+   float     : left;
+   margin    : 0 1.25%;
 }
 
 .block-170 ul {
@@ -25,7 +24,7 @@ footer .block-370 {
 
 .block-170 a {
    text-decoration: none;
-   color: #34404b
+   color          : #34404b
 }
 
 .block-170 a:hover {
@@ -33,55 +32,66 @@ footer .block-370 {
 }
 
 .block-170 .payment {
-   font-size: 1.142rem;
+   font-size  : 1.142rem;
    font-weight: bold;
-   color: #ff5912;
-   margin: 30px 0 20px 0;
+   color      : #ff5912;
+   margin     : 30px 0 20px 0;
 }
 
 .block-170 .payment-card-1 {
-   width: 27px;
-   height: 19px;
+   width           : 27px;
+   height          : 19px;
    background-image: url(../img/cards.png);
-   float: left;
-   margin-right: 8px;
+   float           : left;
+   margin-right    : 8px;
 }
 
 .block-170 .payment-card-2 {
-   width: 27px;
-   height: 20px;
-   background-image: url(../img/cards.png);
+   width              : 27px;
+   height             : 20px;
+   background-image   : url(../img/cards.png);
    background-position: -36px;
-   background-repeat: no-repeat;
-   float: left;
-   margin-right: 8px;
+   background-repeat  : no-repeat;
+   float              : left;
+   margin-right       : 8px;
 }
 
 .block-170 .payment-card-3 {
-   width: 27px;
-   height: 20px;
-   background-image: url(../img/cards.png);
+   width              : 27px;
+   height             : 20px;
+   background-image   : url(../img/cards.png);
    background-position: -72px;
-   background-repeat: no-repeat;
-   float: left;
-   margin-right: 8px;
+   background-repeat  : no-repeat;
+   float              : left;
+   margin-right       : 8px;
 }
 
 .block-170 .payment-card-4 {
-   width: 27px;
-   height: 20px;
-   background-image: url(../img/cards.png);
+   width              : 27px;
+   height             : 20px;
+   background-image   : url(../img/cards.png);
    background-position: -108px;
-   background-repeat: no-repeat;
-   float: left;
-   margin-right: 8px;
+   background-repeat  : no-repeat;
+   float              : left;
+   margin-right       : 8px;
 }
 
 .block-170 .payment-card-5 {
-   width: 27px;
-   height: 20px;
-   background-image: url(../img/cards.png);
+   width              : 27px;
+   height             : 20px;
+   background-image   : url(../img/cards.png);
    background-position: -144px;
-   background-repeat: no-repeat;
-   float: left;
+   background-repeat  : no-repeat;
+   float              : left;
+}
+
+@media screen and (max-width:768px) {
+
+   .site-footer {
+      padding: 0;
+   }
+
+   footer .block-370 {
+      text-align: center;
+   }
 }

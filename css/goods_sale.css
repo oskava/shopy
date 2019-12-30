@@ -1,60 +1,60 @@
 .goods-sale {
    background: #fff;
-   font-size: 1.142rem;
+   font-size : 1.142rem;
 }
 
 .goods-sale .block-left {
-   width: 38.648%;
-   float: left;
+   width     : 38.648%;
+   float     : left;
    text-align: center;
 }
 
 .goods-sale .block-right {
-   width: 61.351%;
-   float: left;
+   width     : 61.351%;
+   float     : left;
    text-align: center;
-   position: relative;
+   position  : relative;
 }
 
 .goods-sale .block-right::after {
-   content: "";
-   display: block;
-   width: 1px;
-   height: 55px;
+   content   : "";
+   display   : block;
+   width     : 1px;
+   height    : 55px;
    background: #f5f5f6;
-   position: absolute;
-   top: 45px;
+   position  : absolute;
+   top       : 45px;
 }
 
 .goods-sale .goods-name {
-   margin-top: 42px;
+   margin-top : 42px;
    font-weight: bold;
 }
 
 .stars-price {
    position: relative;
-   margin: 25px 35px;
+   margin  : 25px 35px;
 }
 
 .stars-price img {
    position: absolute;
-   left: 0;
-   float: left;
-   margin: 0;
+   left    : 0;
+   float   : left;
+   margin  : 0;
 }
 
 .stars-price .goods-price {
-   color: #ff5912;
+   color   : #ff5912;
    position: absolute;
-   right: 0;
-   float: left;
-   margin: 23px 15px;
+   right   : 0;
+   float   : left;
+   margin  : 23px 15px;
 }
 
 .add-good {
    text-align: center;
-   color: #ff6f32;
-   margin: 20px 0 15px 0;
+   color     : #ff6f32;
+   margin    : 20px 0 15px 0;
 }
 
 .add-good img {
@@ -64,7 +64,25 @@
 
 .add-good span {
    padding-bottom: 10px;
-   position: relative;
-   bottom: 4px;
-   cursor: pointer;
+   position      : relative;
+   bottom        : 4px;
+   cursor        : pointer;
+}
+
+@media screen and (max-width:768px) {
+   .goods-sale {
+      float: left;
+   }
+
+}
+
+@media screen and (max-width:576px) {
+   
+   .block-adv {
+      min-height: 155px;
+   }
+
+   .block-adv-2 {
+      padding-top: 50px;
+   }
 }
